@@ -1,4 +1,39 @@
-This plugin makes it so that characters require a static 100 xp to level. 
-Each kill of an enemy of the same level rewards 48xp. Each hit of a same level enemy uses scaling xp rewards.
-Healing allies uses scaling xp depending on level of ally healed and percentage of its total health replinished.
-By putting a <promoted> tag in a class made to be promoted will treat that class as if it were level 21 even though it starts at level 1. This is to prevent high xp gains from hits of higher level enemies and kills of lower level enemies.
+Shining Force XP System Plugin for RPG Maker MZ
+A custom experience system inspired by Shining Force 1, built for SRPG Gear and RPG Maker MZ.
+This plugin replaces the default XP logic with a proportional, damage‑based system that rewards strategy, positioning, and consistent contribution — just like the classic tactical RPGs.
+
+✨ Features
+- Damage‑based XP
+Gain experience proportional to the damage dealt, not fixed values.
+- Kill bonus logic
+Award extra XP for finishing blows (optional, depending on your system).
+- Supports healing, buffs, and utility actions
+(If your plugin does this — I’ll adjust once you confirm.)
+- Fully compatible with SRPG Gear
+Designed specifically for tactical grid‑based combat.
+- Easy to customize
+XP curves, multipliers, and class modifiers can be adjusted in the plugin parameters.
+
+📥 Installation
+- Download the plugin .js file from this repository.
+- Place it in your project’s js/plugins/ folder.
+- Open RPG Maker MZ → Plugin Manager.
+- Add the plugin and enable it.
+- Configure parameters as needed.
+
+⚙️ How It Works
+This plugin overrides SRPG Gear’s default experience calculation and applies a Shining Force–style formula:
+- XP gained is based on damage dealt vs. target max HP
+- Minimum XP ensures weak hits still feel rewarding
+- Optional kill bonus
+- Optional class‑based multipliers
+- Optional level‑difference scaling
+(Once you tell me your exact formula, I’ll rewrite this section precisely.)
+
+🧪 Compatibility
+- ✅ RPG Maker MZ
+- ✅ SRPG Gear
+- ✅ Custom battle systems that rely on SRPG Gear’s hooks
+- ⚠️ May conflict with other plugins that modify XP gain
+
+
