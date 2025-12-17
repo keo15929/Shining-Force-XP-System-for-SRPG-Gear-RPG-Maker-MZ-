@@ -1,7 +1,7 @@
 Shining Force XP System Plugin for RPG Maker MZ
 A custom experience system inspired by Shining Force 1, built for SRPG Gear and RPG Maker MZ.
 This plugin replaces the default XP logic with a proportional, damage‑based system that rewards strategy, positioning, and consistent contribution — just like the classic tactical RPGs.
-A faithful Shining Force–style leveling system built for SRPG Gear.
+A faithful Shining Force–style leveling system built for SRPG Gear. **Version:** 1.0.0
 ✨ Features
 - Damage‑based XP
 Gain experience proportional to the damage dealt, not fixed values.
