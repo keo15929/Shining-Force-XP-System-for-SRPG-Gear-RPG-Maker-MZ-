@@ -25,10 +25,10 @@ XP curves, multipliers, and class modifiers can be adjusted in the plugin parame
 This plugin overrides SRPG Gear’s default experience calculation and applies a Shining Force–style formula:
 - XP gained is based on damage dealt vs. target max HP
 - Minimum XP ensures weak hits still feel rewarding
-- Optional kill bonus
+- Kill xp equals 48
 - Optional class‑based multipliers
-- Optional level‑difference scaling
-(Once you tell me your exact formula, I’ll rewrite this section precisely.)
+- Level‑difference scaling
+- Static 100xp to level up
 
 🧪 Compatibility
 - ✅ RPG Maker MZ
