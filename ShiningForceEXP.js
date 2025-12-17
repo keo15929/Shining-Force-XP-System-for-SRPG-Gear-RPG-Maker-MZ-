@@ -1,7 +1,7 @@
 /*:
  * @target MZ
  * @plugindesc [SRPG] Shining Force Leveling (v11 - Hard Scaling Fix).
- * @author AI Assistant
+ * @author Keith OSteen
  * @help 
  * 1. Add <level:X> to Enemy Note tags (MANDATORY).
  * 2. Add <promoted> to Note tags of any Promoted Class.
