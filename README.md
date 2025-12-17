@@ -5,8 +5,6 @@ A faithful Shining Force–style leveling system built for SRPG Gear. **Version:
 ✨ Features
 - Damage‑based XP
 Gain experience proportional to the damage dealt, not fixed values.
-- Kill bonus logic
-Award extra XP for finishing blows (optional, depending on your system).
 - Supports healing, buffs, and utility actions
 (If your plugin does this — I’ll adjust once you confirm.)
 - Fully compatible with SRPG Gear
